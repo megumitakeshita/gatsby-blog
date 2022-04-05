@@ -6,9 +6,7 @@ import "../styles/header.css"
 export default function Header(){
     return(
         <header>
-            <Link to="/">
-                <img src ={LOGO_IMG} className="logo-image" alt="logo"></img>
-            </Link>
+            <Link to="/"> ロゴ入る </Link>
         </header>
     )
 }
