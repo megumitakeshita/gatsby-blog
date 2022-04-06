@@ -10,7 +10,7 @@ import SEO from "../components/seo"
 export default function Home({ data }) {
   return(
     <Layout>
-    <SEO title="Dev Blog" description="Gatsbyを使って作ったブログです" />
+    <SEO title="cbl testsite" description="Gatsbyを使って作ったブログです" />
     <Hero />
     {data.allMicrocmsBlog.edges.map(edge => 
     <PostLink key={edge.node.blogId} post={edge.node} />
