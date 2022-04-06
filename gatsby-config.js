@@ -14,7 +14,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-microcms',
       options: {
-        apiKey:`b7482181fe2b49fda91cd7db2e32d19568cd`,
+        apiKey: process.env.GATSBY_MICROCMS_API_KEY,
         serviceId: 'cbltest',
         apis: [
           {
