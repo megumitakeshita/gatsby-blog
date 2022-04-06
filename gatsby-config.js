@@ -11,6 +11,7 @@ module.exports = {
     author: "Engineer X"
   },
   plugins: [
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-microcms`,
       options: {
@@ -21,16 +22,6 @@ module.exports = {
             endpoint: `blog`,
           },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        commonmark: true,
-        footnotes: true,
-        pedantic: true,
-        gfm: true,
-        plugins: [],
       },
     },
   ],
