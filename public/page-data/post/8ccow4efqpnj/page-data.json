@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templetes-post-js",
+    "path": "/post/8ccow4efqpnj/",
+    "result": {"pageContext":{"post":{"blogId":"8ccow4efqpnj","title":"マイクロCMSから書くブログタイトル2","body":"<h2 id=\"hdc0f7c0c03\">マークダウンでもできそう</h2><p>本文のテキストエリア</p>","image":{"url":"https://images.microcms-assets.io/assets/15008999bd1b4f08b048a3bff624a333/dadf4eb4d1f8439fba597251694a7288/%E3%82%A4%E3%83%B3%E3%83%88%E3%82%99%E3%81%AE%E5%86%99%E7%9C%9F.jpg","height":425,"width":640},"description":"2番めのブログテキストテキストディスクリプション","updatedAt":"2022年04月05日"}}},
+    "staticQueryHashes": []}
