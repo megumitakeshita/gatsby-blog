@@ -12,13 +12,13 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: 'gatsby-source-microcms',
+      resolve: `gatsby-source-microcms`,
       options: {
         apiKey: process.env.GATSBY_MICROCMS_API_KEY,
-        serviceId: 'cbltest',
+        serviceId: `cbltest`,
         apis: [
           {
-            endpoint: 'blog',
+            endpoint: `blog`,
           },
         ],
       },
