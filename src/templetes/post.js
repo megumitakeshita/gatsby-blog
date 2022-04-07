@@ -1,6 +1,6 @@
 import * as React from "react"
 import "../styles/post.css"
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 export default function Post({pageContext}) {
