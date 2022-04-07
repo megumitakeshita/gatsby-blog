@@ -9,6 +9,7 @@ module.exports = {
     author: "Engineer X"
   },
   plugins: [
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-microcms`,
       options: {
